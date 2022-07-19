@@ -118,7 +118,7 @@ function AccountUtilitiesLayout({ token }) {
           }}
         />
         <Tab
-          label="General Ledger Codes"
+          label="General Ledger Heads"
           {...a11yProps(2)}
           onClick={(event) => {
             event.preventDefault();
@@ -126,7 +126,7 @@ function AccountUtilitiesLayout({ token }) {
           }}
         />
         <Tab
-          label="General Subsidiary Ledger Codes"
+          label="Subsidiary General Ledger Heads"
           {...a11yProps(3)}
           onClick={(event) => {
             event.preventDefault();
